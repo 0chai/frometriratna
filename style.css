@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: #f4f4f4;
     line-height: 1.6;
 }
@@ -138,8 +138,60 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/* Edits how big of a space <br> creates */
+/* Edits how big of a space <p> creates */
 
 p {
     line-height: 150%;
 }
+
+/* banner */
+
+
+.banner {
+    background-image: url('images/banner.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Adds a text shadow for better readability */
+}
+
+.banner-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 18px;
+}
+
+.quote-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* quote */
+
+
+.quote {
+    font-style: italic;
+    font-size: 24px;
+    font-family: 'Georgia', serif; /* Use a suitable font for quotations */
+    line-height: 1.6;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
